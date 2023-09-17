@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caveat:wght@700&family=Chakra+Petch:ital,wght@1,700&family=Dancing+Script:wght@700&family=Lunasima:wght@700&family=Permanent+Marker&family=Rubik+Iso&display=swap');
+
+.bg-dark {
+    border-bottom: 5px solid yellow;
+}
+
+/*Font Utilities*/
+.white {
+    color: whitesmoke;
+}
+
+/* NAVIGATION */
+.navbar {
+    --bs-navbar-brand-hover-color: whitesmoke;
+}
+
+.nav {
+    --bs-nav-link-hover-color: yellowgreen;
+}
+
+/* Button container style */
+.cont-sm {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.contact {
+    padding: 1px 20px;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+/* Button hover effect */
+.contact:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* ARTICLE */
+.partner ul li a{
+    list-style-type: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #212529;
+}
+
+footer div {
+    justify-content: space-evenly;
+}
+
+footer h4 {
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.list-item {
+    list-style-type: none;
+    padding: 5px;
+    color: whitesmoke;
+}
